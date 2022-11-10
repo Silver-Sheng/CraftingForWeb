@@ -1,0 +1,16 @@
+p {
+  color: green;
+  font-size: 20px;
+}
+
+.cat {
+  background: pink;
+}
+
+#first-section {
+  font-family: monospace;
+}
+
+.dog {
+  color: black;
+}
