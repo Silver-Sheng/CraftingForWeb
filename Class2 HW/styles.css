@@ -91,6 +91,12 @@ header {
   color: black;
 }
 
+.response a {
+  text-decoration: none;
+  font-family: Helvetica;
+  color: black;
+}
+
 .about {
   display: flexbox;
   justify-content: left;
