@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>100 Anti-Theses on Cyberfeminism</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>100 Anti-Theses on Cyberfeminism</h1>
+    </div>
+
+    <!-- Reference: https://www.youtube.com/watch?v=Y4Jl1Ql9qFI -->
+    <span class="Sphere"></span>
+    <!-- Including the TagCloud.js script CDN in the document -->
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+
+    <script>
+      const Texts = [
+        "CYBERFEMINISM",
+        "NOT COMPLETE",
+        "NIJE OGRANICEN",
+        "NOT EXCLUSIVE",
+        "NO ES CALLADO",
+        "NOT MATERNALISTIC",
+        "KEIN FEHLER",
+        "NOT SEPARATISM",
+        "NOT A ONE-WAY STREET",
+        "NOT ANTI-MALE",
+        "KEINE VERLEGENHEITSLOESUNG",
+        "NOT A TRAUMA",
+        "PAS TRISTE",
+        "NIJE POSLUSAN",
+        "NOT ERROR 101",
+        "NIJE USAMLJEN",
+        "NOT A FASHION STATEMENT",
+        "not romantic",
+        "not ideology",
+        "nicht truegerisch",
+        "not boring",
+        "nicht willig",
+        "not a single woman",
+        "not a wound",
+        "nije zatvoren prozor",
+        "not post-modern",
+        "nicht modern",
+        "not on sale",
+        "nor for sale",
+        "not a media-hoax",
+        "NICHT TRUEGERISCH",
+      ];
+
+      var tagCloud = TagCloud(".Sphere", Texts, {
+        // Sphere radius in px
+        radius: 330,
+
+        // animation speed
+        maxSpeed: "normal",
+        initSpeed: "fast",
+
+        // Rolling direction
+        direction: 150,
+
+        // Interaction with mouse
+        keep: true,
+      });
+
+      // Giving color to each text in sphere
+      var color = "#002FA7";
+      document.querySelector(".Sphere").style.color = color;
+
+      var rootEl = document.querySelector(".Sphere");
+      rootEl.addEventListener("click", clickEventHandler);
+
+      function clickEventHandler(e) {
+        if (e.target.className === "tagcloud--item") {
+          window.location.href = "./manifesto.html";
+        }
+      }
+    </script>
+  </body>
+</html>

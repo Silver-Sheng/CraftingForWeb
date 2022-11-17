@@ -1,0 +1,70 @@
+/* Importing Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.title {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+body {
+  background-color: #000;
+}
+
+.tagcloud {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+.tagcloud--item:hover {
+  color: #ffffff;
+}
+
+.title2 {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+}
+
+.title2 a {
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+li.text1 {
+  list-style-type: none;
+  background-color: #002fa7;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+li.text2 {
+  list-style-type: none;
+  background-color: #ffffff;
+  color: #002fa7;
+  text-align: right;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+li.text2 a {
+  text-decoration: none;
+  color: #002fa7;
+}
