@@ -63,6 +63,18 @@ header {
   color: #a1a67b;
 }
 
+/* chnage for mobile size */
+@media only screen and (max-width: 600px) {
+  .navbar ul li a {
+    font-size: 10px;
+    padding: 10px 9px;
+  }
+  .headings {
+    font-size: 1.7rem;
+  }
+}
+
+/* reading response section */
 .reading {
   display: flex;
   flex-direction: column;
@@ -98,6 +110,7 @@ header {
   color: black;
 }
 
+/* about class section */
 .about {
   display: flexbox;
   justify-content: left;

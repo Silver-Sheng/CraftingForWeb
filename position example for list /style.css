@@ -1,0 +1,39 @@
+/* change the value for the position property in h1. What happens when it is absolute, fixed, relative or sticky*/
+/* experiment with the top and left propertys as you change the position.*/
+
+.container {
+  width: 50vw;
+  border: 1px solid blue;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+h1 {
+  border: 1px solid red;
+  background-color: pink;
+  position: sticky;
+  top: 0px;
+  left: 10px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  float: left;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+p {
+  border: 1px solid green;
+  padding-bottom: 200px;
+}
