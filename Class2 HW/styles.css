@@ -110,6 +110,10 @@ header {
   color: black;
 }
 
+.response a:hover {
+  color: #df7a3f;
+}
+
 /* about class section */
 .about {
   display: flexbox;
