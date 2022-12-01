@@ -9,6 +9,14 @@
   letter-spacing: 2px;
 }
 
+.title a {
+  text-decoration: none;
+  text-align: Left;
+  color: #002fa7;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+}
+
 body {
   background-color: #000;
 }
@@ -54,6 +62,11 @@ li.text1 {
   letter-spacing: 3px;
 }
 
+li.text1 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 li.text2 {
   list-style-type: none;
   background-color: #ffffff;
@@ -67,4 +80,46 @@ li.text2 {
 li.text2 a {
   text-decoration: none;
   color: #002fa7;
+}
+
+/* about page */
+.title3 {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.title3 a {
+  text-decoration: none;
+  text-align: Left;
+  color: #002fa7;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+}
+
+.about {
+  color: #ffffff;
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.about a {
+  text-decoration: none;
+  color: #002fa7;
+  font-size: 20px;
+}
+
+.about p {
+  line-height: 1.5;
+  margin-right: 25%;
+}
+
+.about a:hover {
+  background-color: #ffffff;
+  color: #002fa7;
+  box-shadow: 0 0 10px #ffffff;
 }
