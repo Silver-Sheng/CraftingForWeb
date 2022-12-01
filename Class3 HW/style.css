@@ -17,6 +17,10 @@
   font-size: 20px;
 }
 
+.title a:hover {
+  color: #ffffff;
+}
+
 body {
   background-color: #000;
 }
@@ -97,6 +101,10 @@ li.text2 a {
   color: #002fa7;
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
+}
+
+.title3 a:hover {
+  color: #ffffff;
 }
 
 .about {
