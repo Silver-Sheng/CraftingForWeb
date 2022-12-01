@@ -41,21 +41,6 @@ body {
   color: #ffffff;
 }
 
-.title2 {
-  text-align: center;
-  color: #ffffff;
-  font-family: "Bebas Neue", cursive;
-}
-
-.title2 a {
-  text-decoration: none;
-  text-align: center;
-  color: #ffffff;
-  font-family: "Bebas Neue", cursive;
-  font-size: 20px;
-  letter-spacing: 3px;
-}
-
 li.text1 {
   list-style-type: none;
   background-color: #002fa7;
@@ -87,26 +72,6 @@ li.text2 a {
 }
 
 /* about page */
-.title3 {
-  text-align: center;
-  color: #ffffff;
-  font-family: "Bebas Neue", cursive;
-  font-size: 20px;
-  letter-spacing: 2px;
-}
-
-.title3 a {
-  text-decoration: none;
-  text-align: Left;
-  color: #002fa7;
-  font-family: "Bebas Neue", cursive;
-  font-size: 20px;
-}
-
-.title3 a:hover {
-  color: #ffffff;
-}
-
 .about {
   color: #ffffff;
   text-align: left;
@@ -126,8 +91,18 @@ li.text2 a {
   margin-right: 25%;
 }
 
-.about a:hover {
+.about p a:hover {
   background-color: #ffffff;
   color: #002fa7;
   box-shadow: 0 0 10px #ffffff;
+}
+
+.about h1 a {
+  text-decoration: none;
+  color: #002fa7;
+  font-size: 30px;
+}
+
+.about h1 a:hover {
+  color: #ffffff;
 }
