@@ -10,13 +10,20 @@
     <button id="my-button">click me</button>
     <div id="count">0</div>
 
+    <style>
+      /* body {
+          fontSize: 12px;
+      } */
+    </style>
+
     <script>
       let total = 0;
       let fontsize = 16;
       let b = document.querySelector("#my-button");
       let countHolder = document.querySelector("#count");
-      //google javascript events
-      //click, scroll, mousewheel, mouseover, mouseout, keypress, keyup, keydown...
+      //some useful events are:
+      //click, scroll, mousewheel, mouseover, mouseout,
+      //keypress, keyup, keydown
       b.addEventListener("click", onClick);
 
       function onClick() {
@@ -24,6 +31,8 @@
         fontsize = fontsize + 1;
         countHolder.textContent = total;
         countHolder.style.fontSize = fontsize + "px";
+        countHolder.style.color = "rgb(200, 50, 150)";
+
         // console.log("you cliked me !", total);
       }
     </script>
