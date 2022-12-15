@@ -1,0 +1,129 @@
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 0.7fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.1fr;
+  grid-template-areas:
+    "navigation main main main"
+    "navigation main main main"
+    "navigation main main main";
+}
+.navigation {
+  grid-area: navigation;
+  background-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navigation h1 {
+  font-size: 35px;
+  line-height: 1.3;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.subtitle a {
+  text-decoration: none;
+  color: rgb(148, 148, 148);
+}
+
+.subtitle a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.worktitle a {
+  text-decoration: none;
+  color: rgb(159, 159, 159);
+}
+
+a:hover {
+  color: black;
+}
+
+.worktitle {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding-top: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main img {
+  width: 95%;
+  height: 95%;
+  opacity: 1;
+  transition: 1s ease;
+}
+.main img:hover {
+  box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737,
+    5px 5px #373737, 6px 6px #373737;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: 0.5s ease;
+}
+
+.design {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  padding-top: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* padding-right: 10%; */
+}
+
+.design h2 {
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
+
+.design p {
+  padding-right: 35%;
+  font-size: 0.8em;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.design a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.design a:hover {
+  color: rgb(0, 47, 167);
+}
+
+.design img {
+  width: 95%;
+  height: 95%;
+}

@@ -1,0 +1,82 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "title title title title title title"
+    "pic1-1 text1-1 col2 col2 col3 col3"
+    "pic1-1 text1-1 col2 col2 col3 col3"
+    "text1-2 pic1-2 col2 col2 col3 col3"
+    "text1-3 text1-3 col2 col2 col3 col3";
+  width: 300vh;
+}
+
+.title {
+  grid-area: title;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.pic1-1 img {
+  grid-area: img1-1;
+  background-color: rgb(253, 253, 253);
+  width: 170px;
+  height: 100px;
+}
+
+.pic1-2 {
+  grid-area: img1-2;
+  background-color: rgb(253, 253, 253);
+}
+
+.text1-1 {
+  grid-area: text1-1;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: left;
+}
+
+.text1-1 p {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.text1-2 {
+  grid-area: text1-2;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: justify;
+}
+
+.text1-2 p {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.text1-3 {
+  grid-area: text1-3;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: justify;
+}
+
+.text1-3 p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col2 {
+  grid-area: col2;
+  background-color: rgb(144, 144, 144);
+  color: white;
+  text-align: justify;
+}
+
+.col3 {
+  grid-area: col3;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: justify;
+}
